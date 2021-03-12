@@ -1,0 +1,15 @@
+#!/bin/sh
+
+export RSTUDIO_PANDOC="/usr/lib/rstudio/bin/pandoc"
+
+file="$(readlink -f "$1")"
+dir="${file%/*}"
+base="${file%.*}"
+extension="${file##*.}"
+
+case $extension in
+    [rR]md)
+        Rscript --vanilla -e "rmarkdown::render('$file', quiet = TRUE)"
+        [ "$2" == "-o" ] && xdg-open "$base.pdf" & ;;
+esac
+
