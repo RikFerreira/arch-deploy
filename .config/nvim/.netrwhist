@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
-let g:netrw_dirhist_7='/home/rik/.local/bin'
-let g:netrw_dirhist_6='/home/rik/.config/rstudio/dictionaries/custom'
-let g:netrw_dirhist_5='/home/rik/.config/rstudio/dictionaries'
-let g:netrw_dirhist_4='/home/rik/.local/bin'
-let g:netrw_dirhist_3='/home/rik/repos/dwm'
-let g:netrw_dirhist_2='/home/rik/.local/bin'
-let g:netrw_dirhist_1='/home/rik/.config/sxiv/exec'
