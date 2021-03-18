@@ -49,5 +49,7 @@
     },
     "show_last_dot_value": true,
     "jobs_tab_visibility": "shown",
-    "restore_source_documents": false
+    "restore_source_documents": false,
+    "default_project_location": "/mnt/HDD/STORAGE/r-projects",
+    "document_author": "Rik Ferreira"
 }

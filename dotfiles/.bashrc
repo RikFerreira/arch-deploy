@@ -85,9 +85,11 @@ fi
 export PS1="\[\e[1;34m\]\u\[\e[m\]\[\e[1;34m\]@\[\e[m\]\[\e[1;34m\]\h\[\e[m\] \W \[\e[1;32m\]\`parse_git_branch\`\[\e[m\]: "
 
 # wget options
-alias wget="wget --hsts-file ~/dotfiles/config/wget/wget-hsts"
+# alias wget="wget --hsts-file ~/dotfiles/config/wget/wget-hsts"
 
 # Enable delete key in st terminal
 # tput smkx
 
 alias vim="nvim"
+alias R="R --vanilla"
+

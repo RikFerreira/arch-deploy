@@ -4,7 +4,7 @@
     syntax on
 
 " Map leader key
-    let g:mapleader = ";"
+    let g:mapleader = " "
 
 " Clipboard settings
     set clipboard=unnamed,unnamedplus

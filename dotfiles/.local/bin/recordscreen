@@ -12,6 +12,7 @@ then
     exit 0
 fi
 
+[ ! "$(echo -e "No\nYes" | dmenu -i -p "Do you want to start recording?: ")" == "Yes" ] && exit 0
 
 # VIDEO SETTINGS
 dimensions="$(xdpyinfo | grep dimensions | awk '{print $2}')"

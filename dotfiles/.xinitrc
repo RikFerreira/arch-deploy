@@ -1,12 +1,13 @@
 #!/bin/sh
 [[ -f ~/.Xresources ]] && xrdb "$HOME/.Xresources"
 
-setbg "#1d2021"
+setbg "$XDG_DATA_HOME/gruvbox-texture.png"
 
 setxkbmap -layout br
 
 xset -dpms s off &
 exec dwm &
+exec xcompmgr &
 exec slstatus &
 exec dunst
 

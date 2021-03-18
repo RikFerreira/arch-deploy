@@ -1,20 +1,21 @@
 #!/bin/sh
 
-sudo pacman -Sy &&
-    notify-send -t 2000 "Updating database..." ||
+sudo pacman -Sy &
+    notify-send -t 2000 --hint int:transient:1 "Updating database..." ||
     exit 1
+
+wait
+
+notify-send -t 5 "Database updated."
 
 packagelist="$(pacman -Sup | sed 's/.*\///')"
 n_packages="$(echo "$packagelist" | wc -l)"
 
 [ -z $packagelist ] && notify-send "The system is up-to-date." && exit 0
 
-option="$(echo -e "Count\nList\nUpdate" | dmenu -i -p "Update options: ")"
+option="$(echo -e "List\nUpdate" | dmenu -i -p "$n_packages packages are waiting for updates: ")"
 
 case $option in
-    "Count")
-            notify-send "$n_packages packages need to be updated."
-        ;;
     "List")
             echo "$packagelist" | dmenu -i -l 10 -p "Packages waiting for update: " > /dev/null
         ;;

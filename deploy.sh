@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# path="$(dirname "$(realpath $0)")/dotfiles"
 path="$(pwd)/dotfiles"
 
 files="$(find dotfiles -mindepth 1 -type f | sed 's/[^/]*\///')"
