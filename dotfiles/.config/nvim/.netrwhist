@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/rik/.vim/plugged/vim-snipmate'
+let g:netrw_dirhist_2='/home/rik/.vim'
+let g:netrw_dirhist_1='/home/rik/.config/transmission-daemon'

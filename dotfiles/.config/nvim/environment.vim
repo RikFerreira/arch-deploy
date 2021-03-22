@@ -5,6 +5,7 @@
 
 " Map leader key
     let g:mapleader = " "
+    let g:maplocalleader = " "
 
 " Clipboard settings
     set clipboard=unnamed,unnamedplus

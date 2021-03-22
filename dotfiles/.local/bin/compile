@@ -10,6 +10,11 @@ extension="${file##*.}"
 case $extension in
     [rR]md)
         Rscript --vanilla -e "rmarkdown::render('$file', quiet = TRUE)"
-        [ "$2" == "-o" ] && xdg-open "$base.pdf" & ;;
+        ;;
+    tex)
+        [ "$(Rscript -e "cat(tinytex::is-tinytex())")" == "TRUE" ] &&
+            Rscript -e "tinytex::pdflatex('$file')" ||
+            pdflatex $file -o "$base.pdf"
+        ;;
 esac
 

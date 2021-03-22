@@ -1,6 +1,5 @@
-" Rmarkdown settings
+" Tex settings
 
 " Autocompile documents
-    autocmd FileType rmd,Rmd
+    autocmd FileType tex
         \ autocmd! BufWritePost <buffer> :!compile %
-

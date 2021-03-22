@@ -1,0 +1,53 @@
+snippet >>
+	 %>% ${0}
+
+snippet header
+	---
+	title: ${1}
+	author: ${2}
+	date: "\`r Sys.Date()\`"
+	output: ${3}_document
+	---
+
+	${0}
+
+snippet setup
+	\`\`\`{r setup, include=FALSE}
+	knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo = FALSE, eval = TRUE)
+	\`\`\`
+
+	${0}
+
+snippet rcode
+	\`\`\`{r}
+	${1}
+	\`\`\`
+
+	${0}
+
+snippet image
+	\`\`\`{r ${1}, fig.width=10, fig.height=5}
+	knitr::include_graphics("${2}")
+	\`\`\`
+
+	${0}
+
+snippet table
+	\`\`\`{r}
+	kableExtra::kbl()
+	\`\`\`
+
+snippet bashcode
+	\`\`\`{bash}
+	${1}
+	\`\`\`
+
+	${0}
+
+snippet pythoncode
+	\`\`\`{python}
+	${1}
+	\`\`\`
+
+	${0}
+

@@ -11,6 +11,7 @@ export PATH=$PATH:$HOME/.local/appimages:$HOME/bin:$HOME/.local/bin
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
+export BIB=/mnt/HDD/STORAGE/library
 
 # XDG directories
 export XDG_DATA_HOME="$HOME/.local/share"

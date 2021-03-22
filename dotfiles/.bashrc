@@ -92,4 +92,5 @@ export PS1="\[\e[1;34m\]\u\[\e[m\]\[\e[1;34m\]@\[\e[m\]\[\e[1;34m\]\h\[\e[m\] \W
 
 alias vim="nvim"
 alias R="R --vanilla"
-
+alias mpv="mpv --geometry=960x540"
+alias screenkey="screenkey -t 1 -f 'Fira Code'"

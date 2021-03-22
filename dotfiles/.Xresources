@@ -34,7 +34,6 @@
 #define light_purple    #d3869b
 #define light_cyan      #8ec07c
 #define light_white     #ebdbb2
-! GRUVBOX
 
 *.color0:               black
 *.color1:               red
@@ -54,6 +53,7 @@
 *.color15:              light_white
 *.color256:             #1d2021
 *.color257:             #ebdbb2
+! GRUVBOX
 
 dwm.normbgcolor:        #282828
 dwm.normbordercolor:    #282828
@@ -61,7 +61,7 @@ dwm.normfgcolor:        #ebdbb2
 dwm.selbgcolor:         #458588
 dwm.selbordercolor:     #458588
 dwm.selfgcolor:         #ebdbb2
-dwm.borderpx:           2
+dwm.borderpx:           3
 dwm.snap:               32
 dwm.showbar:            1
 dwm.topbar:             1

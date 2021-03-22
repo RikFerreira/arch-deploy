@@ -6,8 +6,9 @@ setbg "$XDG_DATA_HOME/gruvbox-texture.png"
 setxkbmap -layout br
 
 xset -dpms s off &
+exec numlockx &
 exec dwm &
-exec xcompmgr &
+exec xcompmgr -S &
 exec slstatus &
 exec dunst
 

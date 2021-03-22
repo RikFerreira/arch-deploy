@@ -17,7 +17,11 @@ source $HOME/.config/nvim/configfiles.vim
 
 source $HOME/.config/nvim/bibtex.vim
 
+source $HOME/.config/nvim/r.vim
+
 source $HOME/.config/nvim/rmarkdown.vim
+
+source $HOME/.config/nvim/tex.vim
 
 source $HOME/.config/nvim/git.vim
 
