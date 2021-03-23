@@ -9,6 +9,7 @@ ARC,git,Version control software
 ARC,htop,System monitor
 ARC,imagemagick,Image processor
 ARC,iw,Wireless network configuration
+ARC,libgit2,Dependency for usethis R package
 ARC,libnotify,Allows desktop notifications
 ARC,libxft,DWM dependency
 ARC,libxinerama,DWM dependency
@@ -26,6 +27,7 @@ ARC,python-pip,Install python packages
 ARC,r,Programming language for statistics
 ARC,sxiv,Image viewer
 ARC,telegram-desktop,Telegram client
+ARC,tk,Dependency for usethis R package
 ARC,transmission-cli,Command line interface for Transmission
 ARC,tree,Tree style visualization for local files
 ARC,ttf-fira-code,Fira Code font
