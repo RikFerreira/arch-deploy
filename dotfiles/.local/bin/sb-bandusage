@@ -14,4 +14,6 @@ read newrx <"/sys/class/net/$dev/statistics/rx_bytes"
 read newtx <"/sys/class/net/$dev/statistics/tx_bytes"
 
 # convert bytes to kbit/s: bytes * 8 / 1000 => bytes / 125
-echo "$dev  {d: $(((newrx-rx) / 125)), u: $(((newtx-tx) / 125))}"
+[ "$2" == "-c" ] &&
+    echo "$(((newrx-rx) / 1000)) $(((newtx-tx) / 1000))" ||
+    echo "$dev  {d: $(((newrx-rx) / 125)), u: $(((newtx-tx) / 125))}"

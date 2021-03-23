@@ -9,6 +9,6 @@ xset -dpms s off &
 exec numlockx &
 exec dwm &
 exec xcompmgr -S &
-exec slstatus &
+exec dwmblocks &
 exec dunst
 

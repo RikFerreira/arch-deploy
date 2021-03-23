@@ -1,5 +1,65 @@
 #!/bin/sh
 
+# Formatting output
+BOLD=$(tput bold)
+REGULAR=$(tput sgr0)
+
+BLACK='\033[0;30m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
+CYAN='\033[0;36m'
+LIGHTGRAY='\033[0;37m'
+NOCOLOR='\033[0m'
+
+workingdir="$(pwd)"
+tempdir="/tmp/temprepo-$(date | awk '{print $5}' | sed 's/:/-/g')"
+mkdir -p $tempdir
+cd $tempdir
+
+gitmakeinstall() {
+    gitrepo="$(echo $1 | sed -e 's/^.*\///' -e 's/\.git$//')"
+    git clone $1 $tempdir/$gitrepo
+    cd $tempdir/$gitrepo
+    sudo make clean install
+    cd $tempdir
+}
+
+installaurherlper() {
+    paru="https://aur.archlinux.org/paru.git"
+    gitrepo="$(echo $paru | sed -e 's/^.*\///' -e 's/\.git$//')"
+    git clone $paru $tempdir/$gitrepo
+    cd $tempdir/$gitrepo
+    makepkg -si
+    cd $tempdir
+}
+
+[ ! $(command -v paru) ] && installaurhelper
+
+while IFS="," read -r source package comment
+do
+    printf "\n"
+    printf "${BLUE}${BOLD}$package: ${YELLOW}${BOLD}$comment\n"
+    printf "\n"
+
+    case $source in
+        ARC)
+            sudo pacman -S $package --noconfirm --color always
+            ;;
+        AUR)
+            paru -S $package --skipreview --noconfirm
+            ;;
+        GIT)
+            gitmakeinstall $package
+            ;;
+        *)
+            printf "Source for $package not recognized!\n"
+            ;;
+    esac
+done < <(sort -t "," -k 1 $1)
+
 # path="$(dirname "$(realpath $0)")/dotfiles"
 path="$(pwd)/dotfiles"
 
@@ -14,3 +74,4 @@ for file in $files; do
     ln -sf "$path/$file" "$HOME/$file"
 done
 
+rm -rf $tempdir

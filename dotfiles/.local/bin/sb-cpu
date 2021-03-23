@@ -1,2 +1,5 @@
 #!/bin/sh
-top -n 1 | grep Cpu | awk '{print 100 - $8"%"}'
+
+cpu="$(echo `top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'`)"
+
+printf "%3d%%\n" $cpu

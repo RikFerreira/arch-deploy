@@ -11,6 +11,29 @@ snippet header
 
 	${0}
 
+snippet header-abnt
+	---
+	title: ${1}
+	author: ${2}
+	date: "\`r Sys.Date()\`"
+	output:
+	    pdf_document:
+	        toc: true
+	geometry: "top=3cm,right=2cm,bottom=2cm,left=3cm"
+	mainfont: Times New Roman
+	fontsize: 12pt
+	indent: true
+	header-includes:
+	    \\usepackage[brazil]{babel}
+	    \\usepackage[onehalfspacing]{setspace}
+	    \\usepackage{indentfirst}
+	bibliography: "\`r paste0(Sys.getenv('BIB'), '/bib/${3}')\`"
+	csl: "\`r paste0(Sys.getenv('BIB'), '/csl/associacao-brasileira-de-normas-tecnicas.csl')\`"
+	abstract:
+	---
+
+	${0}
+
 snippet setup
 	\`\`\`{r setup, include=FALSE}
 	knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo = FALSE, eval = TRUE)
