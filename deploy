@@ -36,31 +36,32 @@ installaurherlper() {
     cd $tempdir
 }
 
-[ ! $(command -v paru) ] && installaurhelper
+if [ "$1" == "-i" ]; then
+    [ ! $(command -v paru) ] && installaurhelper
 
-while IFS="," read -r source package comment
-do
-    printf "\n"
-    printf "${BLUE}${BOLD}$package: ${YELLOW}${BOLD}$comment\n"
-    printf "\n"
+    while IFS="," read -r source package comment
+    do
+        printf "\n"
+        printf "${BLUE}${BOLD}$package: ${YELLOW}${BOLD}$comment\n"
+        printf "\n"
 
-    case $source in
-        ARC)
-            sudo pacman -S $package --noconfirm --color always
-            ;;
-        AUR)
-            paru -S $package --skipreview --noconfirm
-            ;;
-        GIT)
-            gitmakeinstall $package
-            ;;
-        *)
-            printf "Source for $package not recognized!\n"
-            ;;
-    esac
-done < <(sort -t "," -k 1 $1)
+        case $source in
+            ARC)
+                sudo pacman -S $package --noconfirm --color always
+                ;;
+            AUR)
+                paru -S $package --skipreview --noconfirm
+                ;;
+            GIT)
+                gitmakeinstall $package
+                ;;
+            *)
+                printf "Source for $package not recognized!\n"
+                ;;
+        esac
+    done < <(sort -t "," -k 1 "package.list")
+fi
 
-# path="$(dirname "$(realpath $0)")/dotfiles"
 path="$(pwd)/dotfiles"
 
 files="$(find dotfiles -mindepth 1 -type f | sed 's/[^/]*\///')"

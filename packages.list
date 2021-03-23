@@ -2,6 +2,7 @@ ARC,crda,Central Regulatory Domain Agent for wireless networks
 ARC,cronie,Cron jobs daemon
 ARC,curl,Download text files from the Web
 ARC,dunst,Notification daemon
+ARC,ffmpeg,Video conversor
 ARC,firefox,Web browser
 ARC,gdal,Libraries for geospatial data manipulation
 ARC,git,Version control software
@@ -43,9 +44,13 @@ ARC,xsettingsd,Provides settings to X11 apps
 ARC,xwallpaper,Changes desktop wallpaper
 ARC,zathura,Document viewer
 ARC,zathura-pdf-poppler,Engine for viewing PDF with Zathura
-AUR,ffmpeg-git,Video conversor
 AUR,grabc,Grab color
 AUR,rstudio-desktop-bin,R IDE
 AUR,sc-im,Spreadsheets in the terminal
 AUR,ttf-ms-fonts,ABNT fonts
 AUR,udunits,Dependency for R package st
+GIT,https://github.com/rikferreira/dwm.git,Dynamic Window Manager
+GIT,https://github.com/rikferreira/dmenu.git,Menu prompt
+GIT,https://github.com/rikferreira/st.git,Simple terminal
+GIT,https://github.com/rikferreira/dwmblocks.git,Status bar for DWM
+GIT,https://github.com/rikferreira/slock.git,Simple lock screen for X
