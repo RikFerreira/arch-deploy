@@ -2,14 +2,15 @@
 
 [ -z "$1" ] && echo "No file given." && exit 0
 
-tempdir=".${1%.zip}"
-finaldir="${1%\.zip}"
+tempdir=".${1%\.*}"
+finaldir="${1%\.*}"
 
 [ -d $tempdir ] && echo "Cannot override $tempdir." && exit 1
 [ -d $finaldir ] && echo "Cannot override $finaldir." && exit 1
 
 case "$1" in
     *.zip) unzip -q "$1" -d $tempdir ;;
+    *.docx) unzip -q "$1" -d $tempdir ;;
     *) echo "Cannot extract $1."
 esac
 

@@ -46,11 +46,18 @@ ARC,xsettingsd,Provides settings to X11 apps
 ARC,xwallpaper,Changes desktop wallpaper
 ARC,zathura,Document viewer
 ARC,zathura-pdf-poppler,Engine for viewing PDF with Zathura
+ARC,texlive-most,LaTeX distribution
+ARC,biber,Bibliography manager
+ARC,pandoc,Universal document conversor
+ARC,gcc-fortran,R package sf dependency
+ARC,libreoffice-still,Libre Office
+ARC,libreoffice-still-pt-br,Language pack for Libre Office
+AUR,tllocalmgr-git,Package manager for TeX
 AUR,grabc,Grab color
 AUR,rstudio-desktop-bin,R IDE
 AUR,sc-im,Spreadsheets in the terminal
 AUR,ttf-ms-fonts,ABNT fonts
-AUR,udunits,Dependency for R package st
+AUR,udunits,Dependency for R package sf
 GIT,https://github.com/rikferreira/dwm.git,Dynamic Window Manager
 GIT,https://github.com/rikferreira/dmenu.git,Menu prompt
 GIT,https://github.com/rikferreira/st.git,Simple terminal

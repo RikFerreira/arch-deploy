@@ -34,6 +34,20 @@ snippet header-abnt
 
 	${0}
 
+snippet header-docx
+	---
+	title: ${1}
+	author: ${2}
+	output:
+	    word_document:
+	        reference_docx: word-abnt.docx
+	bibliography: "\`r paste0(Sys.getenv('BIB'), '/bib/${3}')\`"
+	csl: "\`r paste0(Sys.getenv('BIB'), '/csl/associacao-brasileira-de-normas-tecnicas.csl')\`"
+	abstract: __Resumo: __
+	---
+
+	${0}
+
 snippet setup
 	\`\`\`{r setup, include=FALSE}
 	knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo = FALSE, eval = TRUE)

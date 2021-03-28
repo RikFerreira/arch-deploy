@@ -4,9 +4,6 @@
 "  \ V /| | | | | | | | | (__
 "   \_/ |_|_| |_| |_|_|  \___|
 
-" TODO: I don't know where to put this
-    set viewoptions-=options
-
 source $HOME/.config/nvim/plugins.vim
 
 source $HOME/.config/nvim/theme.vim

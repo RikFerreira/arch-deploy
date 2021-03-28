@@ -8,11 +8,11 @@ call plug#begin('~/.vim/plugged')
 
     " Productivity
     Plug 'vim-scripts/restore_view.vim'         " Restore folding and cursor position
-    Plug 'airblade/vim-gitgutter'               " Shows git diff for files
+    Plug 'mhinz/vim-signify'                    " Shows git diff for files
     Plug 'tpope/vim-surround'                   " Semi auto surrounds code
-    Plug 'lilydjwg/colorizer'                   " Adds color for hex codes
+    Plug 'ap/vim-css-color'                     " Adds color for hex codes
     Plug 'garbas/vim-snipmate'                  " Snippets
-    Plug 'chrisbra/csv.vim'                     " Nice visualization for CSVs
+    Plug 'vim-scripts/delimitMate.vim'          " Auto close brackets, quotes and other stuff
 
     " Language specific
     Plug 'jalvesaq/nvim-r'                      " R Development
@@ -21,4 +21,3 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline'              " Airline
     Plug 'vim-airline/vim-airline-themes'       " Airline theming
     call plug#end()
-

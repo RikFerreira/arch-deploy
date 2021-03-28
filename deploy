@@ -27,7 +27,7 @@ gitmakeinstall() {
     cd $tempdir
 }
 
-installaurherlper() {
+installaurhelper() {
     paru="https://aur.archlinux.org/paru.git"
     gitrepo="$(echo $paru | sed -e 's/^.*\///' -e 's/\.git$//')"
     git clone $paru $tempdir/$gitrepo
@@ -59,10 +59,11 @@ if [ "$1" == "-i" ]; then
                 printf "Source for $package not recognized!\n"
                 ;;
         esac
-    done < <(sort -t "," -k 1 "package.list")
+    done < <(sort -t "," -k 1 "$workingdir/package.list")
 fi
 
-path="$(pwd)/dotfiles"
+path="$workingdir/dotfiles"
+cd $workingdir
 
 files="$(find dotfiles -mindepth 1 -type f | sed 's/[^/]*\///')"
 dirs="$(find dotfiles -mindepth 1 -type d | sed 's/[^/]*\///')"

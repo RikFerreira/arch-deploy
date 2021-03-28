@@ -3,7 +3,6 @@
 let g:rout_follow_colorscheme       = 1
 let g:Rout_more_colors              = 1
 
-let R_auto_start                    = 2 " R autostart when edit the file
 let R_assign                        = 2 " _ then <-, not <- then _
 let R_args                          = ['--vanilla']
 let R_hi_fun                        = 1
