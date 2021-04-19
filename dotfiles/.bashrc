@@ -91,7 +91,7 @@ export PS1="\[\e[1;34m\]\u\[\e[m\]\[\e[1;34m\]@\[\e[m\]\[\e[1;34m\]\h\[\e[m\] \W
 # tput smkx
 
 alias vim="nvim"
-alias R="R --vanilla"
+alias R="R --no-save --no-restore"
 alias mpv="mpv --geometry=960x540"
 alias screenkey="screenkey -t 1 -f 'Fira Code'"
 export RSTUDIO_PANDOC="/usr/lib/rstudio/bin/pandoc"

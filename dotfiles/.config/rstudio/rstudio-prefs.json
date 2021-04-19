@@ -28,11 +28,7 @@
         ],
         "tabSet1": [
             "Environment",
-            "History",
-            "Connections",
             "Build",
-            "VCS",
-            "Tutorial",
             "Presentation"
         ],
         "tabSet2": [
@@ -40,14 +36,18 @@
             "Plots",
             "Packages",
             "Help",
+            "VCS",
             "Viewer"
         ],
-        "hiddenTabSet": [],
+        "hiddenTabSet": [
+            "History",
+            "Connections",
+            "Tutorial"
+        ],
         "console_left_on_top": false,
         "console_right_on_top": true,
         "additional_source_columns": 0
     },
-    "show_last_dot_value": true,
     "jobs_tab_visibility": "shown",
     "restore_source_documents": false,
     "default_project_location": "/mnt/HDD/STORAGE/r-projects",

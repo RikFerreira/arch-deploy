@@ -57,13 +57,21 @@
     set foldlevel=99
     nnoremap <Space><Space> za
 
-" Sane way to navigate through tabs
+" Navigation through tabs
+    nnoremap tn :tabnext<CR>
+    nnoremap tp :tabprevious<CR>
+    nnoremap tt :tabedit<CR>
+    nnoremap tc :tabclose<CR>
+    nnoremap tw :tabclose<CR>
+    nnoremap TC :tabclose!<CR>
+
+" Sane way to navigate through panes
     nnoremap <C-h> <C-w>h
     nnoremap <C-j> <C-w>j
     nnoremap <C-k> <C-w>k
     nnoremap <C-l> <C-w>l
 
-" Sane way to resize tabs
+" Sane way to resize panes
     nnoremap <C-M-j> :resize -2<CR>
     nnoremap <C-M-k> :resize +2<CR>
     nnoremap <C-M-h> :vertical resize -2<CR>
