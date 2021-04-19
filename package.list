@@ -23,6 +23,7 @@ ARC,numlockx,Activate numlock
 ARC,pavucontrol,Audio manager
 ARC,pulseaudio,A sound server alternative to ALSA
 ARC,python-pip,Install python packages
+ARC,qgis,GIS Software
 ARC,r,Programming language for statistics
 ARC,sxiv,Image viewer
 ARC,telegram-desktop,Telegram client
