@@ -22,3 +22,4 @@ source $HOME/.config/nvim/tex.vim
 
 source $HOME/.config/nvim/git.vim
 
+source $HOME/.config/nvim/nerdtree.vim

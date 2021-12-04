@@ -52,6 +52,7 @@ ARC,pandoc,Universal document conversor
 ARC,gcc-fortran,R package sf dependency
 ARC,libreoffice-still,Libre Office
 ARC,libreoffice-still-pt-br,Language pack for Libre Office
+ARC,pdfgrep,GREP PDF files
 AUR,tllocalmgr-git,Package manager for TeX
 AUR,grabc,Grab color
 AUR,rstudio-desktop-bin,R IDE

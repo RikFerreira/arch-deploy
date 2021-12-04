@@ -16,6 +16,30 @@ snippet article
 	}
 	${0}
 
+snippet book
+	@book{${1},
+		author = {${2}},
+		title = {${3}},
+		subtitle = {${4}},
+		address = {${5}},
+		year = {${6}},
+		publisher = {${7}},
+		edition = {${8}},
+	}
+	${0}
+
+snippet bookchapter
+	@inbook{${1},
+		author = {${2}},
+		chapter = {${3}},
+		title = {${4}},
+		subtitle = {${5}},
+		publisher = {${6}},
+		address = {${7}},
+		year = {${8}},
+	}
+	${0}
+
 snippet news
 	@article{${1},
 		author = {${2}},
@@ -25,5 +49,36 @@ snippet news
 		date = {${6}},
 		url = {${7}},
 		urldate = {${8}},
+	}
+	${0}
+
+snippet mastersthesis
+	@mastersthesis{${1},
+		title = {${2}},
+		subtitle = {${3}},
+		author = {${4}},
+		school = {${5}},
+		year = {${6}},
+	}
+	${0}
+
+snippet phdthesis
+	@phdthesis{${1},
+		title = {${2}},
+		subtitle = {${3}},
+		author = {${4}},
+		school = {${5}},
+		year = {${6}},
+	}
+	${0}
+
+snippet inproceedings
+	@inproceedings{${1},
+		author = {${2}},
+		title = {${3}},
+		eventtitle = {${4}},
+		venue = {${5}},
+		eventdate = {${6}},
+		pages = {${7}},
 	}
 	${0}

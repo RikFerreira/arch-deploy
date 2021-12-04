@@ -51,6 +51,8 @@
     "jobs_tab_visibility": "shown",
     "restore_source_documents": false,
     "default_project_location": "/mnt/HDD/STORAGE/r-projects",
-    "document_author": "Rik Ferreira",
-    "new_proj_git_init": true
+    "document_author": "Rik Ferreira Alves",
+    "rmd_chunk_output_inline": false,
+    "rmd_viewer_type": "pane",
+    "source_with_echo": true
 }

@@ -11,6 +11,12 @@
 " Clipboard settings
     set clipboard=unnamed,unnamedplus
 
+" Disable cut behavior of d and x
+    nnoremap x d
+    nnoremap xx dd
+    nnoremap d "_d
+    vnoremap d "_d
+
 " Enable line numbering
     set number relativenumber
 

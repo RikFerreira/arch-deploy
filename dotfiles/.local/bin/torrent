@@ -8,9 +8,9 @@ case $main_option in
     "Add")
         new_torrent="$(xclip -selection clipboard -o)"
 
-        [ "$(echo -e "No\nYes" | dmenu -i -p "Add $new_torrent?: ")" == "Yes" ] &&
-            (transmission-remote --add $new_torrent &&
-            notify-send "Torrent added to queue.")
+        [ "$(echo -e "No\nYes" | dmenu -i -p "Add magnet link in clipboard?: ")" == "Yes" ] &&
+            transmission-remote --add "$new_torrent" &&
+            notify-send "Torrent added to queue."
         ;;
     "List")
         torrent="$(transmission-remote -l | sed -e '$d' | dmenu -i -l 10 -p "Torrents: ")"

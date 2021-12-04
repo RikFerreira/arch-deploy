@@ -12,6 +12,8 @@ case $extension in
         Rscript --vanilla -e "rmarkdown::render('$file', quiet = TRUE)"
         ;;
     tex)
+        biber $base
+
         [ "$(Rscript -e "cat(tinytex::is-tinytex())")" == "TRUE" ] &&
             Rscript -e "tinytex::pdflatex('$file')" ||
             pdflatex $file -o "$base.pdf"
