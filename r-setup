@@ -8,5 +8,5 @@ do
     printf "${BLUE}${BOLD}$package: ${YELLOW}${BOLD}$comment\n"
     printf "\n"
 
-    R -e "install.packages(\"$package\", repos='http://cran.us.r-project.org')" -s
+    R -e "install.packages(\"$package\", repos='https://vps.fmvz.usp.br/CRAN')" -s
 done < <(sort -t "," -k 1 "$workingdir/r-package.list")
