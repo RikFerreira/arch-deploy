@@ -1,0 +1,521 @@
+package,comment
+abind,Combine Multidimensional Arrays
+abjutils,"Useful Tools for Jurimetrical Analysis Used by the Brazilian
+Jurimetrics Association"
+asd,Simulations for Adaptive Seamless Designs
+askpass,"Safe Password Entry for R, Git, and SSH"
+assertthat,Easy Pre and Post Assertions
+automap,Automatic interpolation package
+backports,Reimplementations of Functions Introduced Since R-3.0.0
+base64enc,Tools for base64 encoding
+basedosdados,'Base Dos Dados' R Client
+bayesm,Bayesian Inference for Marketing/Micro-Econometrics
+BH,Boost C++ Header Files
+bigrquery,An Interface to Google's 'BigQuery' 'API'
+BiocManager,Access the Bioconductor Project Package Repository
+biscale,Tools and Palettes for Bivariate Thematic Mapping
+bit,Classes and Methods for Fast Memory-Efficient Boolean Selections
+bit64,A S3 Class for Vectors of 64bit Integers
+bitops,Bitwise Operations
+blob,"A Simple S3 Class for Representing Vectors of Binary Data
+('BLOBS')"
+blogdown,Create Blogs and Websites with R Markdown
+bookdown,Authoring Books and Technical Documents with R Markdown
+brew,Templating Framework for Report Generation
+brio,Basic R Input Output
+broom,Convert Statistical Objects into Tidy Tibbles
+bslib,Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'
+cachem,Cache R Objects with Automatic Pruning
+callr,Call R from R
+car,Companion to Applied Regression
+carData,Companion to Applied Regression Data Sets
+caret,Classification and Regression Training
+caTools,"Tools: Moving Window Statistics, GIF, Base64, ROC AUC, etc"
+cellranger,Translate Spreadsheet Cell Ranges to Rows and Columns
+checkmate,Fast and Versatile Argument Checks
+classInt,Choose Univariate Class Intervals
+cli,Helpers for Developing Command Line Interfaces
+clipr,Read and Write from the System Clipboard
+ClustGeo,Hierarchical Clustering with Spatial Constraints
+coda,Output Analysis and Diagnostics for MCMC
+colorspace,A Toolbox for Manipulating and Assessing Colors and Palettes
+commonmark,High Performance CommonMark and Github Markdown Rendering in R
+compositions,Compositional Data Analysis
+conflicted,An Alternative Conflict Resolution Strategy
+conquer,Convolution-Type Smoothed Quantile Regression
+corrplot,Visualization of a Correlation Matrix
+countrycode,Convert Country Names and Country Codes
+covr,Test Coverage for Packages
+cowplot,Streamlined Plot Theme and Plot Annotations for 'ggplot2'
+cpp11,A C++11 Interface for R's C Interface
+crayon,Colored Terminal Output
+credentials,Tools for Managing SSH and Git Credentials
+crosstalk,Inter-Widget Interactivity for HTML Widgets
+crsuggest,"Obtain Suggested Coordinate Reference System Information for
+Spatial Data"
+crul,HTTP Client
+Cubist,Rule- And Instance-Based Regression Modeling
+curl,A Modern and Flexible Web Client for R
+cyclocomp,Cyclomatic Complexity of R Code
+data.table,Extension of `data.frame`
+data.tree,General Purpose Hierarchical Data Structure
+DBI,R Database Interface
+dbplyr,A 'dplyr' Back End for Databases
+deflateBR,Deflate Nominal Brazilian Reais
+deldir,Delaunay Triangulation and Dirichlet (Voronoi) Tessellation
+dendextend,Extending 'dendrogram' Functionality in R
+DEoptimR,Differential Evolution Optimization in Pure R
+desc,Manipulate DESCRIPTION Files
+devEMF,EMF Graphics Output Device
+devtools,Tools to Make Developing R Packages Easier
+dials,Tools for Creating Tuning Parameter Values
+DiceDesign,Designs of Computer Experiments
+dichromat,Color Schemes for Dichromats
+diffobj,Diffs for R Objects
+digest,Create Compact Hash Digests of R Objects
+doParallel,Foreach Parallel Adaptor for the 'parallel' Package
+dotenv,Load Environment Variables from '.env'
+dplyr,A Grammar of Data Manipulation
+DT,A Wrapper of the JavaScript Library 'DataTables'
+dtplyr,Data Table Back-End for 'dplyr'
+e1071,"Misc Functions of the Department of Statistics, Probability
+Theory Group (Formerly: E1071), TU Wien"
+elevatr,Access Elevation Data from Various APIs
+ellipse,"Functions for Drawing Ellipses and Ellipse-Like Confidence
+Regions"
+ellipsis,Tools for Working with ...
+eoffice,"Export or Graph and Tables to 'Microsoft' Office and Import
+Figures and Tables"
+evaluate,"Parsing and Evaluation Tools that Provide More Details than the
+Default"
+expm,"Matrix Exponential, Log, 'etc'"
+factoextra,Extract and Visualize the Results of Multivariate Data Analyses
+FactoMineR,Multivariate Exploratory Data Analysis and Data Mining
+fansi,ANSI Control Sequence Aware String Functions
+farver,High Performance Colour Space Manipulation
+fastmap,Fast Data Structures
+flashClust,Implementation of optimal hierarchical clustering
+flexpolyline,Flexible Polyline Encoding
+flextable,Functions for Tabular Reporting
+FNN,Fast Nearest Neighbor Search Algorithms and Applications
+fontawesome,Easily Work with 'Font Awesome' Icons
+forcats,Tools for Working with Categorical Variables (Factors)
+foreach,Provides Foreach Looping Construct
+Formula,Extended Model Formulas
+fs,Cross-Platform File System Operations Based on 'libuv'
+furrr,Apply Mapping Functions in Parallel using Futures
+future,Unified Parallel and Distributed Processing in R for Everyone
+future.apply,Apply Function to Elements in Parallel using Futures
+gapminder,Data from Gapminder
+gargle,Utilities for Working with Google APIs
+gbm,Generalized Boosted Regression Models
+gdalUtils,"Wrappers for the Geospatial Data Abstraction Library (GDAL)
+Utilities"
+gdata,Various R Programming Tools for Data Manipulation
+gdtools,Utilities for Graphical Rendering
+generics,"Common S3 Generics not Provided by Base R Methods Related to
+Model Fitting"
+geobr,Download Official Spatial Data Sets of Brazil
+geojsonsf,GeoJSON to Simple Feature Converter
+geometries,Convert Between R Objects and Geometric Structures
+geosphere,Spherical Trigonometry
+gert,Simple Git Client for R
+GetLattesData,Reading Bibliometric Data from Lattes Platform
+getPass,Masked User Input
+ggfittext,Fit Text Inside a Box in 'ggplot2'
+ggfx,Pixel Filters for 'ggplot2' and 'grid'
+ggnewscale,Multiple Fill and Colour Scales in 'ggplot2'
+ggplot2,Create Elegant Data Visualisations Using the Grammar of Graphics
+ggplotify,Convert Plot to 'grob' or 'ggplot' Object
+ggpubr,'ggplot2' Based Publication Ready Plots
+ggrepel,"Automatically Position Non-Overlapping Text Labels with
+'ggplot2'"
+ggsci,"Scientific Journal and Sci-Fi Themed Color Palettes for
+'ggplot2'"
+ggsignif,Significance Brackets for 'ggplot2'
+ggspatial,Spatial Data Framework for ggplot2
+ggtern,"An Extension to 'ggplot2', for the Creation of Ternary Diagrams"
+gh,'GitHub' 'API'
+gitcreds,Query 'git' Credentials from 'R'
+globals,Identify Global Objects in R Expressions
+glue,Interpreted String Literals
+gmodels,Various R Programming Tools for Model Fitting
+goftest,Classical Goodness-of-Fit Tests for Univariate Distributions
+googleAuthR,Authenticate and Create Google APIs
+googledrive,An Interface to Google Drive
+googlesheets4,Access Google Sheets using the Sheets API V4
+gower,Gower's Distance
+GPArotation,GPA Factor Rotation
+GPfit,Gaussian Processes Modeling
+gridExtra,"Miscellaneous Functions for ""Grid"" Graphics"
+gridGraphics,Redraw Base Graphics Using 'grid' Graphics
+gridSVG,Export 'grid' Graphics as SVG
+gstat,"Spatial and Spatio-Temporal Geostatistical Modelling, Prediction
+and Simulation"
+gtable,Arrange 'Grobs' in Tables
+gtools,Various R Programming Tools
+hardhat,Construct Modeling Packages
+haven,"Import and Export 'SPSS', 'Stata' and 'SAS' Files"
+here,A Simpler Way to Find Your Files
+hereR,'sf'-Based Interface to the 'HERE' REST APIs
+hexbin,Hexagonal Binning Routines
+highr,Syntax Highlighting for R Source Code
+Hmisc,Harrell Miscellaneous
+hms,Pretty Time of Day
+htmlTable,Advanced Tables for Markdown/HTML
+htmltools,Tools for HTML
+htmlwidgets,HTML Widgets for R
+httpcode,'HTTP' Status Code Helper
+httpuv,HTTP and WebSocket Server Library
+httr,Tools for Working with URLs and HTTP
+hunspell,"High-Performance Stemmer, Tokenizer, and Spell Checker"
+ids,Generate Random Identifiers
+igraph,Network Analysis and Visualization
+infer,Tidy Statistical Inference
+ini,Read and Write '.ini' Files
+intervals,Tools for Working with Points and Intervals
+ipred,Improved Predictors
+isoband,"Generate Isolines and Isobands from Regularly Spaced Elevation
+Grids"
+iterators,Provides Iterator Construct
+janeaustenr,Jane Austen's Complete Novels
+janitor,Simple Tools for Examining and Cleaning Dirty Data
+jpeg,Read and write JPEG images
+jquerylib,Obtain 'jQuery' as an HTML Dependency Object
+jsonify,"Convert Between 'R' Objects and Javascript Object Notation
+(JSON)"
+jsonlite,A Simple and Robust JSON Parser and Generator for R
+kableExtra,Construct Complex Table with 'kable' and Pipe Syntax
+kernlab,Kernel-Based Machine Learning Lab
+knitr,A General-Purpose Package for Dynamic Report Generation in R
+labeling,Axis Labeling
+later,"Utilities for Scheduling Functions to Execute Later with Event
+Loops"
+latex2exp,Use LaTeX Expressions in Plots
+latticeExtra,Extra Graphical Utilities Based on Lattice
+lava,Latent Variable Models
+lazyeval,Lazy (Non-Standard) Evaluation
+leafem,'leaflet' Extensions for 'mapview'
+leaflet,"Create Interactive Web Maps with the JavaScript 'Leaflet'
+Library"
+leaflet.extras,Extra Functionality for 'leaflet' Package
+leaflet.providers,Leaflet Providers
+leafpm,Leaflet Map Plugin for Drawing and Editing
+leafpop,"Include Tables, Images and Graphs in Leaflet Pop-Ups"
+leafsync,Small Multiples for Leaflet Web Maps
+leaps,Regression Subset Selection
+LearnBayes,Functions for Learning Bayesian Inference
+lhs,Latin Hypercube Samples
+lifecycle,Manage the Life Cycle of your Package Functions
+link2GI,"Linking Geographic Information Systems, Remote Sensing and Other
+Command Line Tools"
+lintr,A 'Linter' for R Code
+listenv,Environments Behaving (Almost) as Lists
+lme4,Linear Mixed-Effects Models using 'Eigen' and S4
+lubridate,Make Dealing with Dates a Little Easier
+lwgeom,Bindings to Selected 'liblwgeom' Functions for Simple Features
+magick,Advanced Graphics and Image-Processing in R
+magrittr,A Forward-Pipe Operator for R
+mapedit,Interactive Editing of Spatial Data in R
+maps,Draw Geographical Maps
+maptools,Tools for Handling Spatial Objects
+mapview,Interactive Viewing of Spatial Data in R
+markdown,Render Markdown with the C Library 'Sundown'
+MatrixModels,Modelling with Sparse and Dense Matrices
+matrixStats,"Functions that Apply to Rows and Columns of Matrices (and to
+Vectors)"
+meme,Create Meme
+memoise,'Memoisation' of Functions
+Metrics,Evaluation Metrics for Machine Learning
+microbenchmark,Accurate Timing Functions
+mime,Map Filenames to MIME Types
+mindr,Generate Mind Maps with R
+miniUI,Shiny UI Widgets for Small Screens
+minqa,"Derivative-free optimization algorithms by quadratic
+approximation"
+miscTools,Miscellaneous Tools and Utilities
+mitools,Tools for Multiple Imputation of Missing Data
+mnormt,"The Multivariate Normal and t Distributions, and Their Truncated
+Versions"
+modeldata,Data Sets Used Useful for Modeling Packages
+ModelMetrics,Rapid Calculation of Model Metrics
+modelr,Modelling Functions that Work with the Pipe
+multidplyr,A Multi-Process 'dplyr' Backend
+munsell,Utilities for Using Munsell Colours
+mvtnorm,Multivariate Normal and t Distributions
+nabor,"Wraps 'libnabo', a Fast K Nearest Neighbour Library for Low
+Dimensions"
+naivebayes,High Performance Implementation of the Naive Bayes Algorithm
+ncdf4,"Interface to Unidata netCDF (Version 4 or Earlier) Format Data
+Files"
+ndjson,Wicked-Fast Streaming 'JSON' ('ndjson') Reader
+nloptr,R Interface to NLopt
+nngeo,k-Nearest Neighbor Join for Spatial Data
+numDeriv,Accurate Numerical Derivatives
+odbc,Connect to ODBC Compatible Databases (using the DBI Interface)
+officer,Manipulation of Microsoft Word and PowerPoint Documents
+openssl,"Toolkit for Encryption, Signatures and Certificates Based on
+OpenSSL"
+openxlsx,"Read, Write and Edit xlsx Files"
+osmdata,"Import 'OpenStreetMap' Data as Simple Features or Spatial
+Objects"
+parallelly,Enhancing the 'parallel' Package
+parsnip,A Common API to Modeling and Analysis Functions
+patchwork,The Composer of Plots
+pbapply,Adding Progress Bar to '*apply' Functions
+pbkrtest,"Parametric Bootstrap, Kenward-Roger and Satterthwaite Based
+Methods for Test in Mixed Models"
+pillar,Coloured Formatting for Columns
+pkgbuild,Find Tools Needed to Build R Packages
+pkgconfig,Private Configuration for 'R' Packages
+pkgload,Simulate Package Installation and Attach
+plogr,The 'plog' C++ Logging Library
+plotly,Create Interactive Web Graphics via 'plotly.js'
+plyr,"Tools for Splitting, Applying and Combining Data"
+PNADcIBGE,"Downloading, Reading and Analyzing PNADC Microdata"
+png,Read and write PNG images
+polyclip,Polygon Clipping
+polynom,"A Collection of Functions to Implement a Class for Univariate
+Polynomial Manipulations"
+pool,Object Pooling
+praise,Praise Users
+prettymapr,"Scale Bar, North Arrow, and Pretty Margins in R"
+prettyunits,"Pretty, Human Readable Formatting of Quantities"
+pROC,Display and Analyze ROC Curves
+processx,Execute and Control System Processes
+prodlim,Product-Limit Estimation for Censored Event History Analysis
+progress,Terminal Progress Bars
+progressr,"An Inclusive, Unifying API for Progress Updates"
+projmgr,Task Tracking and Project Management with GitHub
+promises,Abstractions for Promise-Based Asynchronous Programming
+proto,Prototype Object-Based Programming
+protolite,Highly Optimized Protocol Buffer Serializers
+proxy,Distance and Similarity Measures
+ps,"List, Query, Manipulate System Processes"
+psy,Various procedures used in psychometry
+psych,"Procedures for Psychological, Psychometric, and Personality
+Research"
+purrr,Functional Programming Tools
+qs,Quick Serialization of R Objects
+quantreg,Quantile Regression
+R.devices,Unified Handling of Graphics Devices
+R.methodsS3,S3 Methods Simplified
+R.oo,R Object-Oriented Programming with or without References
+R.utils,Various Programming Utilities
+R6,Encapsulated Classes with Reference Semantics
+ragg,Graphic Devices Based on AGG
+randomForest,"Breiman and Cutler's Random Forests for Classification and
+Regression"
+ranger,A Fast Implementation of Random Forests
+rapidjsonr,'Rapidjson' C++ Header Files
+RApiSerialize,R API Serialization
+rappdirs,"Application Directories: Determine Where to Save Data, Caches,
+and Logs"
+raster,Geographic Data Analysis and Modeling
+rasterVis,Visualization Methods for Raster Data
+Rborist,"Extensible, Parallelizable Implementation of the Random Forest
+Algorithm"
+rcmdcheck,Run 'R CMD check' from 'R' and Capture Results
+RColorBrewer,ColorBrewer Palettes
+Rcpp,Seamless R and C++ Integration
+RcppArmadillo,"'Rcpp' Integration for the 'Armadillo' Templated Linear Algebra
+Library"
+RcppEigen,"'Rcpp' Integration for the 'Eigen' Templated Linear Algebra
+Library"
+RcppParallel,Parallel Programming Tools for 'Rcpp'
+RcppTOML,'Rcpp' Bindings to Parser for Tom's Obvious Markup Language
+RCurl,General Network (HTTP/FTP/...) Client Interface for R
+readr,Read Rectangular Text Data
+readxl,Read Excel Files
+recipes,Preprocessing and Feature Engineering Steps for Modeling
+rematch,Match Regular Expressions with a Nicer 'API'
+rematch2,Tidy Output from Regular Expression Matching
+remotes,"R Package Installation from Remote Repositories, Including
+'GitHub'"
+reprex,Prepare Reproducible Example Code via the Clipboard
+reshape,Flexibly Reshape Data
+reshape2,Flexibly Reshape Data: A Reboot of the Reshape Package
+reticulate,Interface to 'Python'
+rex,Friendly Regular Expressions
+rgdal,Bindings for the 'Geospatial' Data Abstraction Library
+rgee,R Bindings for Calling the 'Earth Engine' API
+rgeos,Interface to Geometry Engine - Open Source ('GEOS')
+rgrass7,Interface Between GRASS 7 Geographical Information System and R
+rio,A Swiss-Army Knife for Data I/O
+rjson,JSON for R
+RJSONIO,"Serialize R Objects to JSON, JavaScript Object Notation"
+rlang,Functions for Base Types and Core R and 'Tidyverse' Features
+rmarkdown,Dynamic Documents for R
+rnaturalearth,World Map Data from Natural Earth
+rnaturalearthdata,World Vector Map Data from Natural Earth Used in 'rnaturalearth'
+robustbase,Basic Robust Statistics
+RODBC,ODBC Database Access
+RODBC,ODBC Database Access
+ROpenDota,Access OpenDota Services in R
+rosm,Plot Raster Map Tiles from Open Street Map and Other Sources
+roxygen2,In-Line Documentation for R
+rpart.plot,Plot 'rpart' Models: An Enhanced Version of 'plot.rpart'
+rpostgis,R Interface to a 'PostGIS' Database
+RPostgres,Rcpp Interface to PostgreSQL
+RPostgreSQL,R Interface to the 'PostgreSQL' Database System
+rprojroot,Finding Files in Project Subdirectories
+rsample,General Resampling Infrastructure
+RSQLite,'SQLite' Interface for R
+rstatix,Pipe-Friendly Framework for Basic Statistical Tests
+RStoolbox,Tools for Remote Sensing Data Analysis
+rstudioapi,Safely Access the RStudio API
+rvcheck,R/Package Version Check
+rversions,"Query 'R' Versions, Including 'r-release' and 'r-oldrel'"
+rvest,Easily Harvest (Scrape) Web Pages
+rvg,R Graphics Devices for Vector Graphics Output
+s2,Spherical Geometry Operators Using the S2 Geometry Library
+sass,Syntactically Awesome Style Sheets ('Sass')
+satellite,Handling and Manipulating Remote Sensing Data
+scales,Scale Functions for Visualization
+scatterplot3d,3D Scatter Plot
+selectr,Translate CSS Selectors to XPath Expressions
+servr,A Simple HTTP Server to Serve Static Files or Dynamic Documents
+sessioninfo,R Session Information
+sf,Simple Features for R
+sfheaders,Converts Between R Objects and Simple Feature Objects
+sfnetworks,Tidy Geospatial Networks
+shades,Simple Colour Manipulation
+shiny,Web Application Framework for R
+showtext,Using Fonts More Easily in R Graphs
+showtextdb,Font Files for the 'showtext' Package
+sidrar,An Interface to IBGE's SIDRA API
+slider,Sliding Window Functions
+smoothr,Smooth and Tidy Spatial Features
+snakecase,Convert Strings into any Case
+SnowballC,Snowball Stemmers Based on the C 'libstemmer' UTF-8 Library
+sourcetools,"Tools for Reading, Tokenizing and Parsing R Code"
+sp,Classes and Methods for Spatial Data
+spacetime,Classes and Methods for Spatio-Temporal Data
+SparseM,Sparse Linear Algebra
+spatstat,"Spatial Point Pattern Analysis, Model-Fitting, Simulation, Tests"
+spatstat.core,Core Functionality of the 'spatstat' Family
+spatstat.data,Datasets for 'spatstat' Family
+spatstat.geom,Geometrical Functionality of the 'spatstat' Family
+spatstat.linnet,Linear Networks Functionality of the 'spatstat' Family
+spatstat.sparse,Sparse Three-Dimensional Arrays and Linear Algebra Utilities
+spatstat.utils,Utility Functions for 'spatstat'
+spData,Datasets for Spatial Analysis
+spdep,"Spatial Dependence: Weighting Schemes, Statistics"
+SQUAREM,"Squared Extrapolation Methods for Accelerating EM-Like Monotone
+Algorithms"
+srvyr,'dplyr'-Like Syntax for Summary Statistics of Survey Data
+stars,"Spatiotemporal Arrays, Raster and Vector Data Cubes"
+stplanr,Sustainable Transport Planning
+stringdist,"Approximate String Matching, Fuzzy Text Search, and String
+Distance Functions"
+stringfish,Alt String Implementation
+stringi,Character String Processing Facilities
+stringr,"Simple, Consistent Wrappers for Common String Operations"
+survey,Analysis of Complex Survey Samples
+svglite,An 'SVG' Graphics Device
+sys,Powerful and Reliable Tools for Running System Commands in R
+sysfonts,Loading Fonts into R
+systemfonts,System Native Font Finding
+tensor,Tensor product of arrays
+tensorA,Advanced Tensor Arithmetic with Named Indices
+terra,Spatial Data Analysis
+testthat,Unit Testing for R
+textshaping,"Bindings to the 'HarfBuzz' and 'Fribidi' Libraries for Text
+Shaping"
+tibble,Simple Data Frames
+tidygraph,A Tidy API for Graph Manipulation
+tidymodels,Easily Install and Load the 'Tidymodels' Packages
+tidyr,Tidy Messy Data
+tidyselect,Select from a Set of Strings
+tidytext,"Text Mining using 'dplyr', 'ggplot2', and Other Tidy Tools"
+tidyverse,Easily Install and Load the 'Tidyverse'
+timeDate,Rmetrics - Chronological and Calendar Objects
+tinytex,"Helper Functions to Install and Maintain TeX Live, and Compile
+LaTeX Documents"
+tmap,Thematic Maps
+tmaptools,Thematic Map Tools
+tmvnsim,Truncated Multivariate Normal Simulation
+tokenizers,"Fast, Consistent Tokenization of Natural Language Text"
+treemapify,Draw Treemaps in 'ggplot2'
+triebeard,'Radix' Trees in 'Rcpp'
+tripack,Triangulation of Irregularly Spaced Data
+tune,Tidy Tuning Tools
+tzdb,Time Zone Database Information
+units,Measurement Units for R Vectors
+urltools,Vectorised Tools for URL Handling and Parsing
+usethis,Automate Package and Project Setup
+utf8,Unicode Text Processing
+uuid,Tools for Generating and Handling of UUIDs
+vctrs,Vector Helpers
+viridis,Colorblind-Friendly Color Maps for R
+viridisLite,Colorblind-Friendly Color Maps (Lite Version)
+vroom,Read and Write Rectangular Text Data Quickly
+VSURF,Variable Selection Using Random Forests
+vtreat,A Statistically Sound 'data.frame' Processor/Conditioner
+waldo,Find Differences Between R Objects
+warp,Group Dates
+wbstats,"Programmatic Access to Data and Statistics from the World Bank
+API"
+WDI,World Development Indicators and Other World Bank Data
+webshot,Take Screenshots of Web Pages
+whisker,"{{mustache}} for R, Logicless Templating"
+whitebox,'WhiteboxTools' R Frontend
+widgetframe,'Htmlwidgets' in Responsive 'iframes'
+widyr,"Widen, Process, then Re-Tidy Data"
+withr,Run Code 'With' Temporarily Modified Global State
+wk,Lightweight Well-Known Geometry Parsing
+workflows,Modeling Workflows
+workflowsets,Create a Collection of 'tidymodels' Workflows
+wrapr,Wrap R Tools for Debugging and Parametric Programming
+writexl,Export Data Frames to Excel 'xlsx' Format
+xfun,Supporting Functions for Packages Maintained by 'Yihui Xie'
+xgboost,Extreme Gradient Boosting
+XML,Tools for Parsing and Generating XML Within R and S-Plus
+XML,Tools for Parsing and Generating XML Within R and S-Plus
+xml2,Parse XML
+xmlparsedata,Parse Data of 'R' Code as an 'XML' Tree
+xopen,"Open System Files, 'URLs', Anything"
+xtable,Export Tables to LaTeX or HTML
+xts,eXtensible Time Series
+yaml,Methods to Convert R Data to YAML and Back
+yardstick,Tidy Characterizations of Model Performance
+yulab.utils,Supporting Functions for Packages Maintained by 'YuLab-SMU'
+zip,Cross-Platform 'zip' Compression
+zoo,"S3 Infrastructure for Regular and Irregular Time Series (Z's
+Ordered Observations)"
+boot,Bootstrap Functions (Originally by Angelo Canty for S)
+boot,Bootstrap Functions (Originally by Angelo Canty for S)
+class,Functions for Classification
+class,Functions for Classification
+cluster,"""Finding Groups in Data"": Cluster Analysis Extended Rousseeuw et
+al."
+cluster,"""Finding Groups in Data"": Cluster Analysis Extended Rousseeuw et
+al."
+codetools,Code Analysis Tools for R
+codetools,Code Analysis Tools for R
+foreign,"Read Data Stored by 'Minitab', 'S', 'SAS', 'SPSS', 'Stata',
+'Systat', 'Weka', 'dBase', ..."
+foreign,"Read Data Stored by 'Minitab', 'S', 'SAS', 'SPSS', 'Stata',
+'Systat', 'Weka', 'dBase', ..."
+KernSmooth,Functions for Kernel Smoothing Supporting Wand & Jones (1995)
+KernSmooth,Functions for Kernel Smoothing Supporting Wand & Jones (1995)
+lattice,Trellis Graphics for R
+lattice,Trellis Graphics for R
+MASS,Support Functions and Datasets for Venables and Ripley's MASS
+MASS,Support Functions and Datasets for Venables and Ripley's MASS
+Matrix,Sparse and Dense Matrix Classes and Methods
+Matrix,Sparse and Dense Matrix Classes and Methods
+mgcv,"Mixed GAM Computation Vehicle with Automatic Smoothness
+Estimation"
+mgcv,"Mixed GAM Computation Vehicle with Automatic Smoothness
+Estimation"
+nlme,Linear and Nonlinear Mixed Effects Models
+nlme,Linear and Nonlinear Mixed Effects Models
+nnet,Feed-Forward Neural Networks and Multinomial Log-Linear Models
+nnet,Feed-Forward Neural Networks and Multinomial Log-Linear Models
+rpart,Recursive Partitioning and Regression Trees
+rpart,Recursive Partitioning and Regression Trees
+spatial,Functions for Kriging and Point Pattern Analysis
+spatial,Functions for Kriging and Point Pattern Analysis
+survival,Survival Analysis
+survival,Survival Analysis

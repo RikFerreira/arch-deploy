@@ -1,0 +1,12 @@
+#!/bin/sh
+
+workingdir="$(pwd)"
+
+while IFS="," read -r package comment
+do
+    printf "\n"
+    printf "${BLUE}${BOLD}$package: ${YELLOW}${BOLD}$comment\n"
+    printf "\n"
+
+    R -e "install.packages(\"$package\", repos='http://cran.us.r-project.org')" -s
+done < <(sort -t "," -k 1 "$workingdir/r-package.list")
