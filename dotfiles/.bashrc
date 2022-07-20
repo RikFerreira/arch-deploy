@@ -95,3 +95,19 @@ alias R="R --no-save --no-restore"
 alias mpv="mpv --geometry=960x540"
 alias screenkey="screenkey -t 1 -f 'Fira Code'"
 export RSTUDIO_PANDOC="/usr/lib/rstudio/bin/pandoc"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/rik/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/rik/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/rik/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/rik/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

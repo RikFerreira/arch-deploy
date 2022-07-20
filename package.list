@@ -55,10 +55,11 @@ ARC,libreoffice-still-pt-br,Language pack for Libre Office
 ARC,pdfgrep,GREP PDF files
 AUR,tllocalmgr-git,Package manager for TeX
 AUR,grabc,Grab color
-AUR,rstudio-desktop-bin,R IDE
+AUR,rstudio-desktop,R IDE
 AUR,sc-im,Spreadsheets in the terminal
 AUR,ttf-ms-fonts,ABNT fonts
 AUR,udunits,Dependency for R package sf
+AUR,quarto-cli-bin,Quarto for RStudio
 GIT,https://github.com/rikferreira/dwm.git,Dynamic Window Manager
 GIT,https://github.com/rikferreira/dmenu.git,Menu prompt
 GIT,https://github.com/rikferreira/st.git,Simple terminal

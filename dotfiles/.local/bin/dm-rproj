@@ -3,5 +3,5 @@ path=$(find '/mnt/HDD/STORAGE/r-projects' -maxdepth 1 -type d | sort | dmenu -i 
 project=$(find $path -regex '.*\.Rproj$')
 
 [[ ! -z project ]] &&
-    rstudio-bin $project &
+    rstudio $project &
     notify-send "$project opened in RStudio."

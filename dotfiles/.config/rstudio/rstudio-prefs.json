@@ -15,7 +15,6 @@
     "rainbow_parentheses": true,
     "auto_append_newline": true,
     "strip_trailing_whitespace": true,
-    "editor_keybindings": "vim",
     "syntax_color_console": true,
     "console_line_length_limit": 100000,
     "editor_theme": "gruvboxr",
@@ -29,6 +28,7 @@
         "tabSet1": [
             "Environment",
             "Build",
+            "History",
             "Presentation"
         ],
         "tabSet2": [
@@ -37,10 +37,10 @@
             "Packages",
             "Help",
             "VCS",
-            "Viewer"
+            "Viewer",
+            "Presentations"
         ],
         "hiddenTabSet": [
-            "History",
             "Connections",
             "Tutorial"
         ],
